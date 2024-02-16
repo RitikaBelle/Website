@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Company WebPage Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>About Us</h1>
+        
+    </section>
+
+    <!-- about us content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>You Can not Use Up Creativity</h1>
+            <br>
+            <p>We utilize the latest technology to bring results to grow our clients’ business.<br> From Website Design, Search Engine Optimization, Social Media Management or a fully integrated and creative digital marketing strategy, <br>JP Software Technologies has both the track record and in-house ability to support your business.<br>
+                We are pleased to introduce "JP Software Pvt Ltd" as a leading Web Site Design & Development Company. <br>We have successfully finished number of Web projects, Web Application, Web site, Digital Marketing<br>, All to Print media & 3D walkthrough. <br>We take immense care about smallest aspects of the customer requirements and customer requests to understand our valued <br>customers for better user experience. Our primary focus is to help our customer put their application to work by automating business processes that help them meet the needs of their customers.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+    </div>
+</section>   
+                
+            
+    
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We utilize the latest technology to bring results to grow our clients’ business. From Website Design, Search Engine Optimization, <br>Social Media Management or a fully integrated and creative digital marketing strategy,
+                <br> Jp Technologies has both the track record and in-house ability to support your business</p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                
+        </section>
+
+
+
+<!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

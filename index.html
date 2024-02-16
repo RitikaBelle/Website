@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Company WebPage Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header" >
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>IT Software Development</h1>
+            <p>We are 17+ professional software enginneris with<br> more then 8+ years of experience in delivering superior<br> products.</p>
+            <a href="" class="hero-btn" >Learn More</a>
+        </div>
+        
+    </section>
+
+    <!-- ABOUT -->
+    <section class="company">
+    <h1>ABOUT COMAPNY</h1>
+    <br>
+    <h2>Welcome to JP Software Technologies</h2>
+    <p>A Leading Website Development & Digital Marketing Company Providing one-stop solution for all your business needs!!!!<br>
+        We utilize the latest technology to bring results to grow our clients’ business.<br> From Website Design, Search Engine Optimization, Social Media Management, or a fully integrated and creative digital marketing strategy,<br> JP Technologies has both the track record and in-house ability to support your business.</p>
+        
+    </section>
+    <section class="services">
+        <h1>OUR SERVICES</h1>
+       <p> We deal with aspects of professional It Services</p>
+           
+       <div class="row">
+        <div class="services-col">
+            
+            <h3>Web Development</h3>
+            <p>Most Impressive websites & app experiences are rooted in smart design, embody clear vision, are backed by the right technology.</p>
+        </div>
+        <div class="services-col">
+            <h3>Software Development</h3>
+            <p>Software development is the process of designing, programming, testing, and maintance.</p>
+        </div>
+        <div class="services-col">
+            <h3>Digital Marketing</h3>
+            <p>Our digital strategy and consulting services help you build your business and make the rigth impact among your target audience.</p>
+        </div>
+       </div>
+        </section>
+
+        <!-- project -->
+        <section class="project">
+            <h1>LATEST PROJECTS</h1>
+            <br>
+            <p>Projects What We Develops</p>
+            <div class = "row">
+                <div class="project-col">
+                    <img src="Web.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <!-- <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). -->
+                        </p>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <img src="digital.jpg">
+                    <div class="layer">
+                        <h3>Digital Marketing</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <img src="software.jpg">
+                    <div class="layer">
+                        <h3>Software Development</h3>
+                    </div>
+                </div>
+            </div>
+            <h3>We Have Dome More Than 1550+ Projects in Last 8 Years, With 100% Satisifaction</h3>
+        </section>
+
+        <!-- index -->
+        <section class="index">
+            <h1>TECHNOLOGY INDEX</h1>
+            <br>
+            <P>Real Time Monitoring Your Infrastruture Branded Digital Soutions</P>
+
+
+            <div class="row">
+                <div class="index-col">
+                <img src="java.png">
+                
+                </div>
+                
+                    <div class="index-col">
+                    <img src="html.png">
+                    
+                    </div>
+                   
+                        <div class="index-col">
+                        <img src="mysql.png">
+                        
+                        </div>
+                        <div class="index-col">
+                            <img src="python.png">
+                            
+                            </div>
+                        </div>
+        </section>
+        <!-- testimonials -->
+        <section class="testimonials">
+            <h1>OUR TESTIMONIALS</h1>
+            <br>
+            <p>Reads Now Our All Reviews</p>
+            <br>
+            <p>Our goal is to help our companies maintain or achieve best- in-class positions in their respective industries and our team works</p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="test1.png">
+                </div>
+                
+                <div class="testimonial-col">
+                    <img src="test2.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We utilize the latest technology to bring results to grow our clients’ business. From Website Design, Search Engine Optimization, <br>Social Media Management or a fully integrated and creative digital marketing strategy,
+                <br> Jp Technologies has both the track record and in-house ability to support your business</p>
+
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                
+        </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
